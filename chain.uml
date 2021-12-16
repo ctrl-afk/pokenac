@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.chain</OriginalElement>
+  <nodes>
+    <node x="114.75" y="278.0">69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.information</node>
+    <node x="393.75" y="648.0">69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.pokemon_types</node>
+    <node x="96.0" y="0.0">69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.chain</node>
+    <node x="317.75" y="311.0">69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.pokemon</node>
+    <node x="191.75" y="648.0">69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.information_forms</node>
+    <node x="144.25" y="150.0">69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.evo_chain</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.pokemon_types" target="69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.pokemon" relationship="REFERENCES">
+      <point x="0.0" y="-38.5" />
+      <point x="472.75" y="623.0" />
+      <point x="503.75" y="623.0" />
+      <point x="62.0" y="127.0" />
+    </edge>
+    <edge source="69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.information_forms" target="69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.information" relationship="REFERENCES">
+      <point x="-45.5" y="-38.5" />
+      <point x="237.25" y="623.0" />
+      <point x="206.25" y="623.0" />
+      <point x="0.0" y="160.0" />
+    </edge>
+    <edge source="69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.information" target="69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.evo_chain" relationship="REFERENCES">
+      <point x="0.0" y="-160.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.chain" target="69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.chain" relationship="REFERENCES">
+      <point x="-36.75" y="50.0" />
+      <point x="132.75" y="120.0" />
+      <point x="76.0" y="120.0" />
+      <point x="76.0" y="50.0" />
+      <point x="-73.5" y="-0.0" />
+    </edge>
+    <edge source="69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.information_forms" target="69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.pokemon" relationship="REFERENCES">
+      <point x="45.5" y="-38.5" />
+      <point x="328.25" y="623.0" />
+      <point x="379.75" y="623.0" />
+      <point x="-62.0" y="127.0" />
+    </edge>
+    <edge source="69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.evo_chain" target="69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.chain" relationship="REFERENCES">
+      <point x="0.0" y="-39.0" />
+      <point x="36.75" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7651006711409396" showDependencies="false" x="799.9254385964912" y="362.5" />
+  <SelectedNodes>
+    <node>69427665-e478-4fbb-85e3-a8c4fa662779.TABLE:postgres.public.chain</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

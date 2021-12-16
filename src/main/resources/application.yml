@@ -1,0 +1,16 @@
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: postgres://xsyafffrdetmao:c180c31484969c5fd2d4ddfa0775f4a4556b0d3f1594d50ddf176dfb2f0ae499@ec2-52-70-205-234.compute-1.amazonaws.com:5432/de09b9kbr25gcf
+    username: xsyafffrdetmao
+    password: c180c31484969c5fd2d4ddfa0775f4a4556b0d3f1594d50ddf176dfb2f0ae499
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
