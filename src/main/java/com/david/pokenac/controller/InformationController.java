@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //Information é chamado a parte do pokemon, usando o id
-@CrossOrigin(value = "https://ctrl-afk.github.io/pokenac-front/")
+@CrossOrigin(origins = "https://ctrl-afk.github.io/pokenac-front/")
 @RestController
 @RequestMapping("/api/v1/info")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
