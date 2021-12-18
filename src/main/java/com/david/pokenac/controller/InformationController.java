@@ -13,8 +13,8 @@ import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 
-//Information é chamado a parte do pokemon, usando o id
-@CrossOrigin(origins = "https://ctrl-afk.github.io/pokenac-front/")
+//Information é chamado a partir de pokemon, usando o id
+@CrossOrigin(origins = "https://ctrl-afk.github.io")
 @RestController
 @RequestMapping("/api/v1/info")
 @AllArgsConstructor(onConstructor = @__(@Autowired))

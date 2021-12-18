@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 
-@CrossOrigin(origins = "https://ctrl-afk.github.io/pokenac-front/")
+@CrossOrigin(origins = "https://ctrl-afk.github.io")
 @RestController
 @RequestMapping("/api/v1/evo")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
