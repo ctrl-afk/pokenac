@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //Information é chamado a partir de pokemon, usando o id
-@CrossOrigin(origins = "https://ctrl-afk.github.io")
+@CrossOrigin(origins = "https://david-sfernandes.github.io")
 @RestController
 @RequestMapping("/api/v1/info")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
